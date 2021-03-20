@@ -1,87 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Exercise2</title>
-    <link rel="stylesheet" href="exercise2.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <title>Exercise-2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="exercise2.css">
+</head>
+<body>  
+  <div class="container-fluid">
+    <div class="row box">
+      <div class="col-md-8 headline">
+        <h3>Why LocoNav's Vehicle Tracking System?</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="tracking.png" alt="Track">
+            <div class="vec_prop">INTELLIGENT VEHICLE TRACKING</div>
+            <p>
+                Whether you own a single vehicle
+                <br>
+                or are a <a href="">fleet owner</a>,LocoNav is
+                <br>
+                determined to protect and  
+                <br>
+                monitor your asset from theft or harm   
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="lock.png" alt="Lock">
+            <div class="vec_prop">VEHICLE LOCK</div>
+            <p>
+                Turn on vehicle lock from LocoNav's
+                <br> 
+                <a href="">mobile app</a> and be assured that your
+                <br>
+                 vehicle won’t start without your permission
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="alert.png" alt="Alert"> 
+            <div class="vec_prop">LIVE ALERTS</div>
+            <p>
+                Get live over-speeding, entry and
+                <br>
+                exit points, monitor idling in 
+                <br>
+                realtime, etc. Vehicle services 
+                <br>
+                and maintenance alerts
+            </p>
+          </div>
+          <div class="col-md-6"> 
+            <img src="health.png" alt="Health">
+            <div class="vec_prop">VEHICLE HEALTH</div>
+            <p>
+                Get diagnostic, mileage and health 
+                <br>
+                report of your vehicle so that you 
+                <br>
+                can worry less about your vehicle's 
+                <br>
+                well-being and enjoy your time on the road
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="form col-md-4">
+        <form>
+          <p class="head">Get an offer on your mobile<p>
+          <div>
+            <input id="num" placeholder="Phone Number">
+          </div>
+          <div>
+            <input id="qnty" placeholder="How many vehicles ?">
+          </div>
+          <p id="vehicle">Select Your Vehicle</p>
+          <div>
+            <input type="radio" value="Truck">
+            <label>Truck</label>
 
-  <body>
-    <h2 class="heading">Why LocoNav's Vehicle Tracking System?</h2>
-    <div class="first_box">
-      <img src="tracking.png" alt="INTELLIGENT VEHICLE TRACKING" />
-      <p class="vec_prop">INTELLIGENT VEHICLE TRACKING</p>
-      <p class="box">
-        whether you own a single vehicle or a <br />
-        <a href="">fleet owner </a>, LocoNav is determined to <br />
-        protect and monitor your asset from theft or harm
-      </p>
-    </div>
+            <input type="radio" value="Car">
+            <label>Car</label>
 
-    <div class="second_box">
-      <img src="lock.png" alt="VECHILE LOCK" />
-      <p class="vec_prop">VEHICLE LOCK</p>
-      <p class="box">
-        Turn on vehicle locking system from LocoNav's
-        <a href="">mobile app</a> and be assured that your <br />
-        vehicle won’t start without your permission
-      </p>
-    </div>
-
-    <div class="third_box">
-      <img src="alert.png" alt="LIVE ALERT" />
-      <p class="vec_prop">LIVE ALERT</p>
-      <p class="box">
-        Get live over-speeding alerts,alerts <br />
-        on entry and exit points, monitor <br />
-        idling in real time,etc. Vehicle <br />
-        services and maintenance alerts
-      </p>
-    </div>
-
-    <div class="fourth_box">
-      <img src="health.png" alt="VECHILE HEALTH" />
-      <p class="vec_prop">VEHICLE HEALTH</p>
-      <p class="box">
-        Get diagnostic, mileage and health <br />
-        report of your vehicle so that you can <br />
-        worry less about your vehicle's well- <br />
-        being and enjoy your time on the road
-      </p>
-    </div>
-
-    <div class="form">
-      <form>
-        <h2 class="form_heading">Get an Offer on your Mobile</h2>
-        <input type="text" placeholder="Phone Number" class="show" />
-        <br />
-        <input type="number" placeholder="How Many vehicles ?" class="show" />
-        <br />
-        <p class="vehicle">Select Your Vehicle</p>
-        <br />
-      </form>
-      <ul>
-        <li>
-          <input type="radio"/>
-          <label>Truck</label>
-        </li>
-        <li>
-          <input type="radio" class="radio1" />
-          <label>Car</label>
-        </li>
-        <li>
-          <input type="radio"/>
-          <label>Other</label>
-        </li>
-      </ul>
-      <input type="submit" value="GET STARTED" id="submit" class="show" />
-      <p class="number">
-      Call us: +91 8448881390
-      </p>
-    </div>
-  </body>
+            <input type="radio" value="others">
+            <label>Others</label>
+          </div>
+          <input type="submit" value="GET STARTED" id="btn">
+          <br>
+          <p class="number">
+            Call us: +91 8448881414
+          </p>
+        </form>
+      </div>
+   </div>
+ </div>
+</body>
 </html>
