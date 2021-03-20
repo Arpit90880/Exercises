@@ -36,7 +36,7 @@ img{
   border-width: 0px;
   margin-top: 20px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 18px;
 }
 input[type=radio]{
   display: none;
@@ -68,7 +68,7 @@ form{
   border-radius: 5px;
   width : 105%;
   box-shadow: 0 0 40px 0px rgb(160, 160, 160);
-  border: 1px solid rgb(231, 230, 230);
+  border: 1px solid rgb(232, 230, 230);
 }
 input{
   margin: 10px;
@@ -82,8 +82,5 @@ input{
   position: relative; 
   left: -73px
 }
-
-
-
 
  
